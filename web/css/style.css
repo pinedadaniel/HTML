@@ -1,0 +1,45 @@
+body{
+background-color:  black;
+
+}
+
+.fondo {
+    width: 900px;
+    height: 500px;
+    background-image: url(
+"https://img.freepik.com/foto-gratis/estrellas-galaxia-universo-fuera-tierra_9186-16.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+ 
+}
+#formulario{
+
+    color: black;
+}
+
+#contenedor-main{
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+nav{
+
+width: 100%;
+background-color: red;
+padding-top: 20px;
+padding-bottom:20px;
+
+}
+nav li{
+padding-left: 40px;
+text-align: center;
+display: inline;
+color: white;
+}
+
+div {
+    background-color: white;
+    
+}
