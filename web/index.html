@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Mi Paagina Web</title>
+    <title> Mi Pagina Web</title>
     <link rel="stylesheet" href="css/style.css"> 
 
    
@@ -19,14 +19,50 @@
                    
         </nav>
  <div class="fondo">
-           <h1 id=formulario> Formulario </h1> <!--  -->
+           <h1 id=formulario> Formulario: </h1> <!--  -->
 
-           <form action=""></form>
-      
-            </div>
+           <form method="post">
+            <p>Nombre: <input type="text" name="cajaNombre" size="30"></p>
+            <p>Apellido: <input type="text" name="cajaApellido" size="30"></p>
+            <p>Correo:  <input type="email" name="cajaCorreo" size="30"></p>
+            <p>Clave : <input type="password" name="cajaContraseña" size=" 30"> </p>
+            <p>Fecha Nacimiento: <input type="date" name="cajaNacido"> </p>
+
+            <p>Cargo:  <select name="genero">
+                <option> Elija su cargo </option>
+                <option> Administrador </option>
+                <option> Estudiante </option>
+                <option> Profesor </option>
+          
+              </select> </p>
+            <p>Sexo:
+              <input type="radio" name="hm" value="h"> Hombre
+              <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <p>
+              <input type="submit"onclick='alert(" ¡¡ El formulario se ha enviado correctamente;  Gracias.")' value="Enviar">
+              <input type="reset" value="Borrar">
+            </p>
 
 
-<h1> Contactenos </h1>
+           </form>
+ </div>
+
+
+
+    
+
+ <footer>
+    <div class='piePagina'>
+        <p>Contactenos </p>
+        <p> Correo:  Danny.systemyes@gmail.com  <--------------->  GitHub:  https://github.com/pinedadaniel  </p>
+        <p> Hecho por Daniel pineda ©  Todos los Derechos Reservados.</p>
+    </div>
+</footer>
+
+
+
+
 
 </div>
 

@@ -1,24 +1,45 @@
 body{
-background-color:  black;
+background-color:  white;
 
 }
+@media only screen and (min-width: 1300px ) and (max-width: 5000px){
+    body{
+        background-color:  black;
+        
+        }
 
+}
+@media only screen and (min-width: 800px ) and (max-width: 1100px){
+    body{
+        background-color:  blue;
+        
+        }
+
+}
+@media only screen and (min-width: 500px ) and (max-width: 800px){
+    body{
+        background-color:  red;
+        
+        }
+
+}
 .fondo {
     width: 900px;
     height: 500px;
     background-image: url(
-"https://img.freepik.com/foto-gratis/estrellas-galaxia-universo-fuera-tierra_9186-16.jpg?size=626&ext=jpg");
+"https://i.pinimg.com/originals/d5/e6/36/d5e636801c5022a535998a7d893ee8a1.jpg");
     background-repeat: no-repeat;
     background-position: center ;
  
 }
 #formulario{
-
-    color: black;
+font-size: 27px;
+font-family: "georgia";
+color: white;
 }
 
 #contenedor-main{
-    width: 70%;
+    width: 72%;
     align-content: center;
     text-align: center;
     margin: 0 auto;
@@ -32,14 +53,47 @@ padding-top: 20px;
 padding-bottom:20px;
 
 }
+
+nav ul{
+margin-right: 30px;
+
+}
 nav li{
 padding-left: 40px;
 text-align: center;
 display: inline;
-color: white;
+color: black;
+font:bold 23px "geneva";
+font-size: 25px;
+box-shadow: 15px 0px 50px  0px blue;
+border-radius: 30px;
+border-bottom:2px solid #fff;
+border-top:1px solid #fff;
+display:block;
+
+
+          	 
+    
+   
 }
 
 div {
-    background-color: white;
-    
+    background-color:black;
+    box-shadow: 15px 15px 50px 0px blue;
+    margin: 0 auto;
+}
+form{
+    text-align: center;
+
+color: white;
+font:bold 19px "tahoma";
+
+}
+#f{
+    font-size: 30px;
+}
+
+.piePagina{
+color: white;
+
 }
