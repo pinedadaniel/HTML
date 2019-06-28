@@ -9,7 +9,7 @@ background-color:  white;
         }
 
 }
-@media only screen and (min-width: 800px ) and (max-width: 1100px){
+@media only screen and (min-width: 800px ) and (max-width: 1300px){
     body{
         background-color:  blue;
         
@@ -27,7 +27,7 @@ background-color:  white;
     width: 900px;
     height: 500px;
     background-image: url(
-"https://i.pinimg.com/originals/d5/e6/36/d5e636801c5022a535998a7d893ee8a1.jpg");
+"https://cdn.pixabay.com/photo/2017/12/17/06/53/astronomy-3023756_960_720.jpg");
     background-repeat: no-repeat;
     background-position: center ;
  
@@ -63,18 +63,31 @@ padding-left: 40px;
 text-align: center;
 display: inline;
 color: black;
-font:bold 23px "geneva";
+font:bold 20px "geneva";
 font-size: 25px;
 box-shadow: 15px 0px 50px  0px blue;
 border-radius: 30px;
 border-bottom:2px solid #fff;
 border-top:1px solid #fff;
 display:block;
+}
 
 
-          	 
-    
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+li:hover {
+    background-color: blue;
    
+  }
+
+a:hover{
+    border-radius: 20px;
+    font-size: 24px;
+    color:white;
+    
 }
 
 div {
